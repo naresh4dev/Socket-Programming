@@ -39,7 +39,7 @@ def rec(c):
 
 
 c = socket()
-c.connect(('localhost', 9999))
+c.connect(('localhost', 9999))#Please Enter IP address instead of 'localhost' to connect with Server
 print('Connected With Server')
 name = input('Enter your Name')
 c.send(bytes(name, 'utf-8'))
